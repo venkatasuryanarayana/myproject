@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function msg() {
+			// var a = 5;
+			var a = document.getElementById("name").value;
+			if(a%2==0){
+				document.writeln("even number");
+			}
+			else{
+				document.writeln("odd number");
+			}
+		}
+		
+	</script>
+</head>
+<body>
+	<input type="text" id="name" name="">
+	<button id="btn" onclick="msg()">click</button>
+
+</body>
+</html>

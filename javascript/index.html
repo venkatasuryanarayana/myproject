@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title></title>
+    <script>
+      emp={id:101,name:"surya",salary:2000}
+      document.write(emp.id+" "+emp.name+" "+emp.salary+"<br/>");
+
+      var s=new Object();
+      s.id=111;
+      s.name="venkat";
+      s.salary=20000;
+      document.write(s.id+s.name+s.salary)
+
+     function employee(id,name,sal)
+     {
+       /* return{
+       id:id,
+       peru:name,
+       jeetham:sal,
+     } */
+
+     this.id=id;
+     this.peru=name;
+     this.jeetham=sal;
+     }
+     var e=new employee(1,'surya',1000000);
+     document.write(e.id+e.peru+e.jeetham+"<br>");
+     document.write(e);
+     // var f=new employee(1,'satya',1000000);
+    // document.write(f.id+f.peru+f.jeetham); */
+    var number=new Number("89");
+ document.write(number);
+ document.write(10<20);
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
